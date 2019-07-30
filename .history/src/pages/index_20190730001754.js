@@ -20,7 +20,7 @@ export const query = graphql`
 
   {
     img:file(relativePath:{eq:
-    "default-aloe.jpg"}){
+    "default-background.jpeg"}){
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid_tracedSVG

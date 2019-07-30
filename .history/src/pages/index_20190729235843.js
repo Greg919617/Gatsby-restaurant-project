@@ -6,12 +6,14 @@ import SEO from "../components/seo"
 import BackgroundSection from "../components/Globals/BackgroundSection";
 // import { FaGulp } from "react-icons/fa";
 
+// inster Line after </layout> <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}></div>
 const IndexPage = ({data}) => (
   <Layout>
-    <SEO title="Home"  keywords={[`jamaican`,
-     `delivery`, `jerk-island`]}/>
-    <BackgroundSection img=
-    {data.img.childImageSharp.fluid} title="Island Jerk" styleClass="default-background"
+    <SEO title="Home"  keywords={[`jamaican`, `delivery`, `jerk-island`]}/>
+    <h1>Island Jerk</h1>
+    <p>Welcome to your new Restaurant website.</p>
+
+    <BackgroundSection img={data.img.childImageSharp.fluid}
     />
   </Layout>
 );
@@ -19,8 +21,8 @@ const IndexPage = ({data}) => (
 export const query = graphql`
 
   {
-    img:file(relativePath:{eq:
-    "default-aloe.jpg"}){
+    backgroundimg:file(relativePath:{eq:
+    "default-aloe.jpeg"}){
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid_tracedSVG
@@ -28,6 +30,6 @@ export const query = graphql`
       }
     }
   }
-
-`;
+}
+`
 export default IndexPage
