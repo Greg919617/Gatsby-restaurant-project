@@ -43,7 +43,7 @@ h6{
   background-size:cover;
 }
 
-.btn-yellow{
+/* .btn-yellow{
   color:var(--mainYellow);
   border-color: var(--mainYellow);
 }
@@ -51,4 +51,4 @@ h6{
 .btn-yellow:hover{
   background: var(--mainYellow);
   color:var(--mainBrown) !important;
-}
+} */

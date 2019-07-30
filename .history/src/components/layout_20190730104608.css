@@ -50,5 +50,5 @@ h6{
 
 .btn-yellow:hover{
   background: var(--mainYellow);
-  color:var(--mainBrown) !important;
+  color:var(--mainBrown);
 }

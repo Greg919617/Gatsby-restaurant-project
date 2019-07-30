@@ -18,6 +18,6 @@ export default function BackgroundSection({
 
 BackgroundSection.defaultProps = {
     title:"Island Jerk",
-    styleClass:"default-background",
+    styleClass:".default-background",
       
 };

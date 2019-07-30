@@ -34,16 +34,10 @@ h6{
 
 .default-background{
   min-height: 30vh;
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(rgba(255, 158, 9, 0.5),
-  rgba(230, 164, 67, 0.5)); 
-  background-position: center;
-  background-size:cover;
+
 }
 
-.btn-yellow{
+/* .btn-yellow{
   color:var(--mainYellow);
   border-color: var(--mainYellow);
 }
@@ -51,4 +45,4 @@ h6{
 .btn-yellow:hover{
   background: var(--mainYellow);
   color:var(--mainBrown) !important;
-}
+} */
