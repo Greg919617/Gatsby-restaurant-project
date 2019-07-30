@@ -52,7 +52,7 @@ h6{
 }
 
 .btn-custom:hover{
-  background: var(--mainGreen);
+  background: var(--mainRed);
   color:var(--mainYellow);
 }
 

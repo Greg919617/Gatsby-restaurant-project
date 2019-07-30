@@ -14,7 +14,7 @@ export default function Info() {
                         Peanut punch is a popular beverage amongst many Caribbean islands especially Jamaica, Trinidad and Guyana. The drink is regarded as a ‘man’s drink’ due to the high energy levels it yields from the high protein and fat content.
                         </p>
                         <Link to="/about/">
-                            <button className="btn text-uppercase btn-custom">about page</button>
+                            <button className="btn text-uppercase btn-yellow">about page</button>
                         </Link>
                     </div>
                 </div>

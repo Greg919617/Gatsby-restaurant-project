@@ -1,8 +1,7 @@
 :root{
   --mainBrown:#2d1e1f;
   --mainRed:#D81F26;
-  --mainYellow:rgb(221, 255, 28);
-  --mainGreen:#14d80e;
+  --mainYellow:rgb(255, 158, 9);
   --mainGrey:#ece8dc;
   --mainWhite:#fff;
   --mainDark:#222;
@@ -44,18 +43,12 @@ h6{
   background-size:cover;
 }
 
-/* changes color of text .btn-yellow */
-.btn-custom{
-  
-  color:var(--mainGreen);
-  border-color: var(--mainRed);
-}
-
-.btn-custom:hover{
-  background: var(--mainGreen);
+.btn-yellow{
   color:var(--mainYellow);
+  border-color: var(--mainYellow);
 }
 
-.footer{
-  background: var(--mainGreen);
+.btn-yellow:hover{
+  background: var(--mainYellow);
+  color:var(--mainBrown);
 }

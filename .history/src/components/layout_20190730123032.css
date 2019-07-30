@@ -52,8 +52,8 @@ h6{
 }
 
 .btn-custom:hover{
-  background: var(--mainGreen);
-  color:var(--mainYellow);
+  background: var(--mainRed);
+  color:var(--mainRed);
 }
 
 .footer{

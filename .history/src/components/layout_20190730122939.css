@@ -1,7 +1,7 @@
 :root{
   --mainBrown:#2d1e1f;
   --mainRed:#D81F26;
-  --mainYellow:rgb(221, 255, 28);
+  --mainRed:#D81F2;
   --mainGreen:#14d80e;
   --mainGrey:#ece8dc;
   --mainWhite:#fff;
@@ -52,8 +52,8 @@ h6{
 }
 
 .btn-custom:hover{
-  background: var(--mainGreen);
-  color:var(--mainYellow);
+  background: var(--mainRed);
+  color:var(--mainRed);
 }
 
 .footer{
